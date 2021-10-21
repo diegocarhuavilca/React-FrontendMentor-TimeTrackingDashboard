@@ -1,0 +1,10 @@
+@import "../profile/_Profile.scss";
+@import "../activity/Activity.scss";
+.Main {
+  width: 75%;
+  min-height: 60vh;
+  .profile {
+    min-width: 25%;
+    display: flex;
+  }
+}

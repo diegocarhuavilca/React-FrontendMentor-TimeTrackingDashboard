@@ -1,0 +1,28 @@
+.Activity {
+  color: white;
+  .contenedor-actividad {
+    border-radius: 0.7rem;
+    overflow: hidden;
+
+    .contenido-card {
+      height: 100%;
+      background-color: $soft_blue_play;
+      border-radius: 0.7rem;
+
+      .fondo-sup {
+        height: 20%;
+      }
+
+      .contenido-principal {
+        height: 80%;
+        border-radius: 0.7rem 0.7rem 0 0;
+        background-color: $dark_blue;
+        border-radius: 0.6rem;
+
+        .titulo {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
